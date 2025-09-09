@@ -1,0 +1,1 @@
+/* CoffeeCup.jsx from scaffold */
