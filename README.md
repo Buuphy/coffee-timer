@@ -33,3 +33,66 @@ The app also includes **basic analytics** — tracking your session history, sho
 ```bash
 git clone https://github.com/YOUR-USERNAME/coffee-timer.git
 cd coffee-timer
+```
+
+### 2. Install dependencies
+```bash
+npm install
+```
+
+### 3. Run locally
+```bash
+npm run dev
+```
+
+Now open the app in your browser at:  
+👉 [http://localhost:5173](http://localhost:5173)
+
+---
+
+## 📦 Building for production
+```bash
+npm run build
+```
+This will output optimized static assets into the `dist/` folder, ready to be deployed.
+
+Preview the production build locally:
+```bash
+npm run preview
+```
+
+---
+
+## 📂 Project Structure
+```
+coffee-timer/
+├─ package.json
+├─ vite.config.js
+├─ index.html
+├─ src/
+│  ├─ main.jsx
+│  ├─ App.jsx
+│  ├─ styles.css
+│  ├─ components/
+│  │  ├─ Sidebar.jsx
+│  │  ├─ CoffeeCup.jsx
+│  │  ├─ Analytics.jsx
+│  │  └─ PresetButton.jsx
+│  ├─ hooks/
+│  │  └─ useTimer.js
+│  ├─ services/
+│  │  └─ storage.js
+│  └─ utils/
+│     └─ date.js
+└─ public/
+```
+
+---
+
+## 🧩 Contributing
+Pull requests are welcome! If you’d like to suggest new features (e.g., advanced analytics, notifications, themes), open an issue first to discuss.
+
+---
+
+## 📄 License
+MIT License © 2025
